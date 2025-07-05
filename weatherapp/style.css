@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(to top right, #d0eaff, #f3f9ff);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.weather-card {
+  max-width: 400px;
+  animation-duration: 1s;
+}
+
+.weather-icon {
+  width: 100px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.weather-icon:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
